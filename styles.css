@@ -40,14 +40,17 @@ body {
 .content {
 	width: 100%;
 }
-/* Lists */
+/* Day sections */
 .date {
 	font-size: 200%;
 	text-align: center;
 }
 .div_day {
 	margin-bottom: 10%;
+	padding-top: 2%;
+	padding-bottom: 5%;
 	background-color: white;
+	border-radius: 3%;
 	width: 100%;
 }
 .day_reset {
@@ -58,6 +61,7 @@ body {
 }
 .div_dayReset {
 	margin-top: 2%;
+	margin-bottom: 2%;
 	text-align: center;
 }
 .div_day h1 {
@@ -68,6 +72,15 @@ body {
 	text-decoration: underline;
 }
 
+
+/* Lists */
+.listInfo {
+	border-radius: 3%;
+	background-image: url(back1.jpg);
+}
+.lists {
+	padding-top: 5%;
+}
 
 /* Items */
 .items {
@@ -122,7 +135,7 @@ body {
 /* Input */
 .item_add {
 	text-align: center;
-	margin-top: 2.5%;
+	padding-top: 2%;
 	padding-bottom: 2%;
 }
 .item_add input {
